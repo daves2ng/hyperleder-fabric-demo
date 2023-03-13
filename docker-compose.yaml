@@ -388,7 +388,7 @@ services:
     networks:
       - zone
 
-peer0.zenith.example.com:
+  peer0.zenith.example.com:
     container_name: peer0.zenith.example.com
     extends:
       file: base.yaml
